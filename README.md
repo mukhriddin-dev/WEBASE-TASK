@@ -1,4 +1,20 @@
-# task
+# topshiriq vazifasi
+
+Konfiguratsiya asosida dinakmik forma chizish taski
+	Konfiguratsiya asosida dinamik forma chizish dasturini yaratish. Konfiguratsiyani masalan json fayl ko’rinishida saqlash mumkin. 
+Kamida 4-5 ta kontrollardan foydalanish imkoni bo’lishi kerak. Bular textbox, datepicker, select-list, radio-button, checkbox va h.k bo’lishi mumkin. Bir biriga bog’liq select-list kontroli ham konfiguratsiyasini kiritish imkoni bo’lishi kerak. Masalan “viloyatlar” select-list tidan qaysidir viloyat tanlangan vaqt, “tumanlar” select-list tida tanlangan viloyatlarning tumanlari ko’rinishi kerakligini konfiguratsiyaga chiqarish.
+Formalarning joylashuvini konfiguratsiyasi ham dinamik bo’lishi kerak. Masalan qaysidir kontrollar 1 qatorda 3 tasi, qaysidir kontrol bir qatorda bitta o’zi joylashishishi. Yoki inline forma yoki oddiy forma ko’rinishida chizishni konfiguratsiya chiqarish.
+
+
+
+Dinamik forma konfiguratsiyasini yaratuvchi tool (ixtiyoriy)
+Ushbu qism ixtiyoriy bo’lib bajarilgan taqdirda kandidantga katta “plus” bo’ladi.
+Yuqoridagi 1-taskda aytilgan konfiguratsiya faylni yaratib/o’zgartirib beruvchi tool dasturni yaratish. Bunda toolbox yaratib, kerakli kontrollar ro’yxatini drag drop qilish orqali asosiy formaga olib o’tiladi. Va asosiy formdagi kontrollar uzunligi, nomi, joylashuv qatori va h.k. larni o’zgatirish imkoni bo’lishi kerak.
+Saqlash tugmasi bosilganida bajarilgan ishlar konfiguratsiya faylga yartiladi/saqlanadi va bu konfiguratsiya faylni yuqoridagi 1-taskdagi dasturda chizib ko’rsatish imkoni bo’lishi kerak.
+
+
+
+
 
 This template should help get you started developing with Vue 3 in Vite.
 
@@ -50,3 +66,5 @@ npm run test:unit
 ```sh
 npm run lint
 ```
+
+
